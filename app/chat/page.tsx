@@ -15,7 +15,7 @@ import {
   type PromptInputMessage,
   PromptInputSubmit,
   PromptInputTextarea,
-  PromptInputToolbar,
+  PromptInputFooter,
   PromptInputTools,
 } from "@/components/ai-elements/prompt-input";
 import { Response } from "@/components/ai-elements/response";
@@ -72,12 +72,12 @@ export default function RAGChatBot() {
               onChange={(e) => setInput(e.target.value)}
             />
           </PromptInputBody>
-          <PromptInputToolbar>
+          <PromptInputFooter>
             <PromptInputTools>
               {/* Model selector, web search, etc. */}
             </PromptInputTools>
             <PromptInputSubmit disabled={!input && !status} status={status} />
-          </PromptInputToolbar>
+          </PromptInputFooter>
         </PromptInput>
       </div>
     </div>
