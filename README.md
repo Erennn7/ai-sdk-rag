@@ -1,6 +1,6 @@
 # AI SDK RAG
 
-A full-stack **Retrieval-Augmented Generation (RAG)** application built with [Next.js](https://nextjs.org) and the [Vercel AI SDK](https://sdk.vercel.ai). Upload PDF documents and chat with their contents using OpenAI's GPT models and vector similarity search powered by [Neon Postgres](https://neon.tech) with `pgvector`.
+A full-stack **Retrieval-Augmented Generation (RAG)** application built with [Next.js](https://nextjs.org) and the [Vercel AI SDK](https://sdk.vercel.ai). Upload PDF documents and chat with their contents using OpenAI's /Anthropic's models and vector similarity search powered by [Neon Postgres](https://neon.tech) with `pgvector`.
 
 ---
 
@@ -25,7 +25,7 @@ A full-stack **Retrieval-Augmented Generation (RAG)** application built with [Ne
 | Database | Neon Postgres + `pgvector` |
 | ORM | Drizzle ORM |
 | Auth | Clerk |
-| PDF Parsing | pdf-parse v2 |
+| PDF Parsing | pdf-parse v2 | Langchain
 | Text Splitting | LangChain `RecursiveCharacterTextSplitter` |
 | Styling | Tailwind CSS v4 |
 
